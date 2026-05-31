@@ -1,0 +1,34 @@
+{
+  "name": "nextjs-laravel-template-client",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Zean Kurt G. Balboa",
+  "scripts": {
+    "dev": "next dev --port 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "latest",
+    "axios": "latest",
+    "class-variance-authority": "latest",
+    "clsx": "latest",
+    "lucide-react": "latest",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "tailwind-merge": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "latest",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4.3.0",
+    "tw-animate-css": "latest",
+    "typescript": "^5"
+  }
+}

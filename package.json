@@ -1,0 +1,15 @@
+{
+  "name": "nextjs-laravel-template",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Zean Kurt G. Balboa",
+  "description": "Full-stack Next.js and Laravel template with TypeScript, TailwindCSS, and Laravel Sanctum.",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && php artisan serve --host=127.0.0.1 --port=8000",
+    "dev": "concurrently -n client,server -c cyan,magenta \"npm run client\" \"npm run server\""
+  },
+  "devDependencies": {
+    "concurrently": "latest"
+  }
+}
